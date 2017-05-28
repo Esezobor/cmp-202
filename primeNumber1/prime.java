@@ -1,4 +1,4 @@
-N package primeNumber;
+package primeNumber;
 import java.util.Scanner;
 public class prime {
 	public static void main(String arg[]){
@@ -7,7 +7,7 @@ public class prime {
 	System.out.println("Please enter a number: ");
 	int num =input.nextInt();
 	int i;
-	for(i=2;i<num/5;i++);
+	for(i=2;i<num/3;i++);
 	temp=num%i;
 	if (temp==0){
 		System.out.println(num+" Is not a prime number");
