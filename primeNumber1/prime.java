@@ -1,4 +1,4 @@
-package primeNumber;
+N package primeNumber;
 import java.util.Scanner;
 public class prime {
 	public static void main(String arg[]){
@@ -10,10 +10,10 @@ public class prime {
 	for(i=2;i<num/5;i++);
 	temp=num%i;
 	if (temp==0){
-		System.out.println("false");
+		System.out.println(num+" Is not a prime number");
 	}
 	else if(temp!=0) {
-		System.out.println("True");
+		System.out.println(num+" Is a prime number");
 	}
 	}
 
